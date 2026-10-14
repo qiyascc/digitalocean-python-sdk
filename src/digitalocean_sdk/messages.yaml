@@ -1,0 +1,28 @@
+settings:
+  description: Settings for the DigitalOcean API client.
+  token: Personal access token from cloud.digitalocean.com/account/api/tokens.
+  base_url: API URL without the version part.
+  api_version: API version that fills the {version} part of every endpoint.
+  endpoints: Path templates for every API call, relative to the base URL.
+  timeout: Seconds to wait for a single request.
+  max_retries: How many times a failed request is tried again.
+  max_retry_wait: Longest wait in seconds the client accepts from a rate limit answer.
+  backoff_base: First backoff delay in seconds, doubled on every retry.
+  backoff_cap: Longest backoff delay in seconds.
+  page_size: Items asked for on every page when listing, between 1 and 200.
+  default_ttl: TTL in seconds used for new records when none is given.
+  user_agent: User-Agent header. {version} is replaced with the package version.
+error:
+  request_failed: Request failed
+  missing_token: Missing token. Pass token, set DIGITALOCEAN_TOKEN, or point DIGITALOCEAN_CONFIG at a config file.
+  timeout: 'Request timed out: {error}'
+  connection: 'Connection failed: {error}'
+value:
+  empty_domain: domain must not be empty
+  empty_name: record name must not be empty, use '@' for the apex
+  empty_type: record type must not be empty
+  no_values: at least one record value is required
+  add_needs_records: add() needs at least one DNSRecord
+  update_needs_fields: update() needs at least one field to change
+  needs_id: record {name!r} has no id, fetch it from the API first
+  foreign_name: '{name!r} is not inside {domain}'
