@@ -14,7 +14,7 @@ That call makes `shop.example.com` resolve to `203.0.113.10`. If the record alre
 ## Install
 
 ```bash
-pip install git+https://github.com/qiyascc/digitalocean-python-sdk.git
+pip install digitalocean-python-sdk
 ```
 
 Requires Python 3.10 or newer. Dependencies: [httpx](https://www.python-httpx.org/), [goodconf](https://github.com/lincolnloop/goodconf), pydantic and PyYAML.
@@ -46,7 +46,7 @@ default_ttl = 1800
 With no arguments, the client looks for `digitalocean.toml`, `digitalocean.yaml`, `digitalocean.yml` or `digitalocean.json` in the working directory. To load a file from somewhere else, set `DIGITALOCEAN_CONFIG=/path/to/file`, or pass `config_file=` to the client. YAML files need the `yaml` extra, and TOML files on Python 3.10 need the `toml` extra:
 
 ```bash
-pip install "digitalocean-python-sdk[yaml] @ git+https://github.com/qiyascc/digitalocean-python-sdk.git"
+pip install "digitalocean-python-sdk[yaml]"
 ```
 
 | Setting | Env variable | Default |
@@ -301,6 +301,13 @@ ruff check .
 ```
 
 The tests use `httpx.MockTransport`, so they never touch the real API.
+
+## Links
+
+- Source code: [github.com/qiyascc/digitalocean-python-sdk](https://github.com/qiyascc/digitalocean-python-sdk)
+- PyPI: [pypi.org/project/digitalocean-python-sdk](https://pypi.org/project/digitalocean-python-sdk/)
+- Project page: [theqiyas.cc/projects/digitalocean-python-sdk](https://theqiyas.cc/projects/digitalocean-python-sdk/)
+- Author: [Qiyas Sadıqov](https://theqiyas.cc), more projects at [theqiyas.cc](https://theqiyas.cc)
 
 ## License
 
