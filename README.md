@@ -1,5 +1,7 @@
 # digitalocean-python-sdk
 
+[![PyPI](https://img.shields.io/pypi/v/digitalocean-python-sdk?color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/digitalocean-python-sdk/)
+
 A small, typed Python client for the DigitalOcean Domains and DNS API. It works with both sync and async code, waits and retries when DigitalOcean rate limits you, and returns plain dataclasses, not raw JSON.
 
 ```python
