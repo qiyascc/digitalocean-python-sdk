@@ -1,6 +1,7 @@
 # digitalocean-python-sdk
 
 [![PyPI](https://img.shields.io/pypi/v/digitalocean-python-sdk?color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/digitalocean-python-sdk/)
+[![Docs](https://readthedocs.org/projects/digitalocean-python-sdk/badge/?version=latest)](https://digitalocean-python-sdk.readthedocs.io/en/latest/)
 
 A small, typed Python client for the DigitalOcean Domains and DNS API. It works with both sync and async code, waits and retries when DigitalOcean rate limits you, and returns plain dataclasses, not raw JSON.
 
@@ -306,6 +307,7 @@ The tests use `httpx.MockTransport`, so they never touch the real API.
 
 ## Links
 
+- Documentation: [digitalocean-python-sdk.readthedocs.io](https://digitalocean-python-sdk.readthedocs.io/en/latest/)
 - Source code: [github.com/qiyascc/digitalocean-python-sdk](https://github.com/qiyascc/digitalocean-python-sdk)
 - PyPI: [pypi.org/project/digitalocean-python-sdk](https://pypi.org/project/digitalocean-python-sdk/)
 - Project page: [theqiyas.cc/projects/digitalocean-python-sdk](https://theqiyas.cc/projects/digitalocean-python-sdk/)
