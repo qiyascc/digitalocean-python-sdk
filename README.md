@@ -310,8 +310,8 @@ The tests use `httpx.MockTransport`, so they never touch the real API.
 - Documentation: [digitalocean-python-sdk.readthedocs.io](https://digitalocean-python-sdk.readthedocs.io/en/latest/)
 - Source code: [github.com/qiyascc/digitalocean-python-sdk](https://github.com/qiyascc/digitalocean-python-sdk)
 - PyPI: [pypi.org/project/digitalocean-python-sdk](https://pypi.org/project/digitalocean-python-sdk/)
-- Project page: [theqiyas.cc/projects/digitalocean-python-sdk](https://theqiyas.cc/projects/digitalocean-python-sdk/)
-- Author: [Qiyas Sadıqov](https://theqiyas.cc), more projects at [theqiyas.cc](https://theqiyas.cc)
+- Project page: [qiyas.cc/projects/digitalocean-python-sdk](https://qiyas.cc/projects/digitalocean-python-sdk/)
+- Author: [Qiyas Sadıqov](https://qiyas.cc), more projects at [qiyas.cc](https://qiyas.cc)
 
 ## License
 

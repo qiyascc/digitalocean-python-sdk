@@ -1,13 +1,13 @@
 # About
 
-The DigitalOcean Python SDK is written and maintained by **Qiyas Sadıqov**. More projects by the same author, including the other SDKs and Django packages, are on [theqiyas.cc](https://theqiyas.cc).
+The DigitalOcean Python SDK is written and maintained by **Qiyas Sadıqov**. More projects by the same author, including the other SDKs and Django packages, are on [qiyas.cc](https://qiyas.cc).
 
 ## Links
 
 - Documentation: [digitalocean-python-sdk.readthedocs.io](https://digitalocean-python-sdk.readthedocs.io/en/latest/)
 - Source code: [github.com/qiyascc/digitalocean-python-sdk](https://github.com/qiyascc/digitalocean-python-sdk)
 - PyPI: [pypi.org/project/digitalocean-python-sdk](https://pypi.org/project/digitalocean-python-sdk/)
-- Project page: [theqiyas.cc/projects/digitalocean-python-sdk](https://theqiyas.cc/projects/digitalocean-python-sdk/)
+- Project page: [qiyas.cc/projects/digitalocean-python-sdk](https://qiyas.cc/projects/digitalocean-python-sdk/)
 - Issues: [github.com/qiyascc/digitalocean-python-sdk/issues](https://github.com/qiyascc/digitalocean-python-sdk/issues)
 
 ## The DNS SDK family
